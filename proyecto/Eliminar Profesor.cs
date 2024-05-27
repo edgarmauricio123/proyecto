@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace proyecto
 {
     public partial class Eliminar_Profesor : Form
     {
+
         public Eliminar_Profesor()
         {
             InitializeComponent();
         }
-
+        static string conexion = "SERVER=localhost;PORT=3307; DATABASE=entradas_tecnologico; UID=root;PASSWORD=;";
+        MySqlConnection cn = new MySqlConnection(conexion);
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -53,6 +56,11 @@ namespace proyecto
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
 
         }
     }
