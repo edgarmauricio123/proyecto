@@ -151,7 +151,6 @@ namespace proyecto
             mostrar.StartPosition = FormStartPosition.CenterParent; // Establece la posición del formulario hijo
             mostrar.Show(this); // Abre el formulario sin bloquear el formulario padre
         }
-
         private void progressBar1_Click(object sender, EventArgs e)
         {
 
