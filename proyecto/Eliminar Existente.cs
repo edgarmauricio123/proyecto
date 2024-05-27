@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace proyecto
 {
@@ -19,7 +20,7 @@ namespace proyecto
             InitializeComponent();
         }
 
-        static string conexion = "SERVER=127.0.0.1;PORT=3306; DATABASE=entradas_tecnologico; UID=root;PASSWORD=;";
+        static string conexion = "SERVER=localhost;PORT=3307; DATABASE=entradas_tecnologico; UID=root;PASSWORD=;";
         MySqlConnection cn = new MySqlConnection(conexion);
 
         public DataTable llenar_grid()
@@ -128,6 +129,11 @@ namespace proyecto
             {
 
             }
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

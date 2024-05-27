@@ -39,36 +39,36 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.correo = new System.Windows.Forms.TextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.grupo = new System.Windows.Forms.TextBox();
+            this.semestre = new System.Windows.Forms.TextBox();
+            this.NumeroControl = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.carrera = new System.Windows.Forms.TextBox();
+            this.Nombre = new System.Windows.Forms.TextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.Nombre = new System.Windows.Forms.TextBox();
-            this.carrera = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.NumeroControl = new System.Windows.Forms.TextBox();
-            this.semestre = new System.Windows.Forms.TextBox();
-            this.grupo = new System.Windows.Forms.TextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.correo = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -180,6 +180,161 @@
             this.panel2.TabIndex = 7;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Beige;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.richTextBox6);
+            this.panel6.Location = new System.Drawing.Point(14, 117);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(344, 27);
+            this.panel6.TabIndex = 2;
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox6.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(100, 19);
+            this.richTextBox6.TabIndex = 0;
+            this.richTextBox6.Text = "Ingresar Nuevo";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Beige;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.correo);
+            this.panel5.Controls.Add(this.richTextBox7);
+            this.panel5.Controls.Add(this.grupo);
+            this.panel5.Controls.Add(this.semestre);
+            this.panel5.Controls.Add(this.NumeroControl);
+            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.button2);
+            this.panel5.Controls.Add(this.carrera);
+            this.panel5.Controls.Add(this.Nombre);
+            this.panel5.Controls.Add(this.richTextBox5);
+            this.panel5.Controls.Add(this.richTextBox4);
+            this.panel5.Controls.Add(this.richTextBox3);
+            this.panel5.Controls.Add(this.richTextBox2);
+            this.panel5.Controls.Add(this.richTextBox1);
+            this.panel5.Location = new System.Drawing.Point(14, 117);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(344, 309);
+            this.panel5.TabIndex = 3;
+            // 
+            // correo
+            // 
+            this.correo.Location = new System.Drawing.Point(15, 237);
+            this.correo.Name = "correo";
+            this.correo.Size = new System.Drawing.Size(290, 20);
+            this.correo.TabIndex = 14;
+            // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox7.Location = new System.Drawing.Point(15, 220);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox7.TabIndex = 13;
+            this.richTextBox7.Text = "Correo";
+            // 
+            // grupo
+            // 
+            this.grupo.Location = new System.Drawing.Point(147, 156);
+            this.grupo.Name = "grupo";
+            this.grupo.Size = new System.Drawing.Size(158, 20);
+            this.grupo.TabIndex = 9;
+            // 
+            // semestre
+            // 
+            this.semestre.Location = new System.Drawing.Point(15, 156);
+            this.semestre.Name = "semestre";
+            this.semestre.Size = new System.Drawing.Size(115, 20);
+            this.semestre.TabIndex = 8;
+            // 
+            // NumeroControl
+            // 
+            this.NumeroControl.Location = new System.Drawing.Point(15, 199);
+            this.NumeroControl.Name = "NumeroControl";
+            this.NumeroControl.Size = new System.Drawing.Size(290, 20);
+            this.NumeroControl.TabIndex = 7;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(147, 263);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(126, 23);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Salir";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // carrera
+            // 
+            this.carrera.Location = new System.Drawing.Point(15, 105);
+            this.carrera.Name = "carrera";
+            this.carrera.Size = new System.Drawing.Size(290, 20);
+            this.carrera.TabIndex = 6;
+            // 
+            // Nombre
+            // 
+            this.Nombre.Location = new System.Drawing.Point(15, 54);
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Size = new System.Drawing.Size(290, 20);
+            this.Nombre.TabIndex = 5;
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Location = new System.Drawing.Point(15, 182);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox5.TabIndex = 2;
+            this.richTextBox5.Text = "Numero de control";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.Location = new System.Drawing.Point(147, 131);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox4.TabIndex = 2;
+            this.richTextBox4.Text = "Grupo";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Location = new System.Drawing.Point(15, 131);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox3.TabIndex = 2;
+            this.richTextBox3.Text = "Semestre";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Location = new System.Drawing.Point(15, 84);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox2.TabIndex = 1;
+            this.richTextBox2.Text = "Carrera";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.Beige;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Location = new System.Drawing.Point(15, 31);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(158, 19);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "Nombre Completo";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
@@ -214,161 +369,7 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(100, 10);
             this.progressBar1.TabIndex = 5;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(15, 31);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "Nombre Completo";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Location = new System.Drawing.Point(15, 84);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "Carrera";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Location = new System.Drawing.Point(15, 131);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox3.TabIndex = 2;
-            this.richTextBox3.Text = "Semestre";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Location = new System.Drawing.Point(147, 131);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox4.TabIndex = 2;
-            this.richTextBox4.Text = "Grupo";
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.Location = new System.Drawing.Point(15, 182);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox5.TabIndex = 2;
-            this.richTextBox5.Text = "Numero de control";
-            // 
-            // Nombre
-            // 
-            this.Nombre.Location = new System.Drawing.Point(15, 54);
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Size = new System.Drawing.Size(290, 20);
-            this.Nombre.TabIndex = 5;
-            // 
-            // carrera
-            // 
-            this.carrera.Location = new System.Drawing.Point(15, 105);
-            this.carrera.Name = "carrera";
-            this.carrera.Size = new System.Drawing.Size(290, 20);
-            this.carrera.TabIndex = 6;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(147, 263);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Salir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // NumeroControl
-            // 
-            this.NumeroControl.Location = new System.Drawing.Point(15, 199);
-            this.NumeroControl.Name = "NumeroControl";
-            this.NumeroControl.Size = new System.Drawing.Size(290, 20);
-            this.NumeroControl.TabIndex = 7;
-            // 
-            // semestre
-            // 
-            this.semestre.Location = new System.Drawing.Point(15, 156);
-            this.semestre.Name = "semestre";
-            this.semestre.Size = new System.Drawing.Size(115, 20);
-            this.semestre.TabIndex = 8;
-            // 
-            // grupo
-            // 
-            this.grupo.Location = new System.Drawing.Point(147, 156);
-            this.grupo.Name = "grupo";
-            this.grupo.Size = new System.Drawing.Size(158, 20);
-            this.grupo.TabIndex = 9;
-            // 
-            // richTextBox7
-            // 
-            this.richTextBox7.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox7.Location = new System.Drawing.Point(15, 220);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(158, 19);
-            this.richTextBox7.TabIndex = 13;
-            this.richTextBox7.Text = "Correo";
-            // 
-            // correo
-            // 
-            this.correo.Location = new System.Drawing.Point(15, 237);
-            this.correo.Name = "correo";
-            this.correo.Size = new System.Drawing.Size(290, 20);
-            this.correo.TabIndex = 14;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Beige;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.correo);
-            this.panel5.Controls.Add(this.richTextBox7);
-            this.panel5.Controls.Add(this.grupo);
-            this.panel5.Controls.Add(this.semestre);
-            this.panel5.Controls.Add(this.NumeroControl);
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Controls.Add(this.button2);
-            this.panel5.Controls.Add(this.carrera);
-            this.panel5.Controls.Add(this.Nombre);
-            this.panel5.Controls.Add(this.richTextBox5);
-            this.panel5.Controls.Add(this.richTextBox4);
-            this.panel5.Controls.Add(this.richTextBox3);
-            this.panel5.Controls.Add(this.richTextBox2);
-            this.panel5.Controls.Add(this.richTextBox1);
-            this.panel5.Location = new System.Drawing.Point(14, 117);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(344, 309);
-            this.panel5.TabIndex = 3;
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.BackColor = System.Drawing.Color.Beige;
-            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox6.Location = new System.Drawing.Point(3, 3);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(100, 19);
-            this.richTextBox6.TabIndex = 0;
-            this.richTextBox6.Text = "Ingresar Nuevo";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Beige;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.richTextBox6);
-            this.panel6.Location = new System.Drawing.Point(14, 117);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(344, 27);
-            this.panel6.TabIndex = 2;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // Eliminar_Existente
             // 
@@ -386,11 +387,11 @@
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
