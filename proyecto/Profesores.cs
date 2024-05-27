@@ -46,5 +46,10 @@ namespace proyecto
             proyecto.Form1 mostrar = new proyecto.Form1();
             mostrar.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

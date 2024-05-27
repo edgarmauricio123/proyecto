@@ -284,6 +284,7 @@
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(290, 20);
             this.Nombre.TabIndex = 5;
+            this.Nombre.TextChanged += new System.EventHandler(this.Nombre_TextChanged);
             // 
             // richTextBox5
             // 

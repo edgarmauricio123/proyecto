@@ -131,7 +131,33 @@ namespace proyecto
             }
         }
 
+        private void INICIO_Click(object sender, EventArgs e)
+        {
+            proyecto.Form1 mostrar = new proyecto.Form1();
+            mostrar.StartPosition = FormStartPosition.CenterParent; // Establece la posición del formulario hijo
+            mostrar.Show(this); // Abre el formulario sin bloquear el formulario padre
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            proyecto.Estudiantes mostrar = new proyecto.Estudiantes();
+            mostrar.StartPosition = FormStartPosition.CenterParent; // Establece la posición del formulario hijo
+            mostrar.Show(this); // Abre el formulario sin bloquear el formulario padre
+        }
+
+        private void PROFESORES_Click(object sender, EventArgs e)
+        {
+            proyecto.Profesores mostrar = new proyecto.Profesores();
+            mostrar.StartPosition = FormStartPosition.CenterParent; // Establece la posición del formulario hijo
+            mostrar.Show(this); // Abre el formulario sin bloquear el formulario padre
+        }
+
         private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Nombre_TextChanged(object sender, EventArgs e)
         {
 
         }
